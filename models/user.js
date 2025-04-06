@@ -9,3 +9,4 @@ const userSchema= new Schema({
 })
 userSchema.plugin(passportLocalMongoose);//atomatic implement username,hashing .....
 module.exports=mongoose.model("User",userSchema);
+//locally
